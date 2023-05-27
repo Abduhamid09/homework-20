@@ -12,8 +12,7 @@
     font-family: 'Tenor Sans';
     src: url(./font/TenorSans-Regular.ttf);
 }
-header{
-    border: 0.5px solid grey;
+header div{
     display: flex;
     justify-content: space-between;
     padding: 36px 120px;
@@ -80,8 +79,9 @@ letter-spacing: 1px;
 text-transform: uppercase;
 color: #000000;
 }
-@media (max-width:447px) {
+@media (max-width: 500px) {
     header{
+        /* width: 100%; */
         padding: 20px 80px;
     }
     header ul{
