@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+@font-face {
+    font-family: 'Libre Franklin';
+    src: url(./font/static/LibreFranklin-Regular.ttf);
+}
+@font-face {
+    font-family: 'Tenor Sans';
+    src: url(./font/TenorSans-Regular.ttf);
+}
+header{
+    border: 0.5px solid grey;
+    display: flex;
+    justify-content: space-between;
+    padding: 36px 120px;
+}
+header ul {
+    gap: 40px;
+    display: flex;
+}
+header ul li a{
+    text-decoration: none;
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;
+}
+header aside {
+    display: none;
+}
+.sec1 .box{
+    display: flex;
+    margin: 60px 120px;
+}
+.sec1 .box .box__item{
+    padding-left: 60px;
+}
+.sec1 .box .box__item p:nth-child(1){
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #999999;
+}
+.sec1 .box .box__item h1{
+    padding-top: 18px;
+    font-family: 'Tenor Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    text-transform: uppercase;
+    color: #000000;
+}
+.sec1 .box .box__item p:nth-child(3){
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #666666;
+}
+.sec1 .box .box__item p:nth-last-child(1){
+    padding-top: 28px;
+    font-family: 'Libre Franklin';
+font-style: normal;
+font-weight: 700;
+font-size: 10px;
+line-height: 12px;
+letter-spacing: 1px;
+text-transform: uppercase;
+color: #000000;
+}
+@media (max-width:447px) {
+    header{
+        padding: 20px 80px;
+    }
+    header ul{
+        display: none;
+    }
+    header aside {
+        display: block;
+    }
+    .sec1 .box {
+        display: block;
+    }
+    .sec1 .box .box__item{
+        width: 100%;
+        height: 42px;
+    }
+    .sec1 .box img{
+        width: 421px;
+        height: 174px;
+
+
+    }
+}
