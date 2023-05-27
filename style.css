@@ -81,16 +81,14 @@ color: #000000;
 }
 @media (max-width: 500px) {
     header{
-        width: 100%;
-        justify-content: space-between;
-        display: flex;
         padding: 20px 80px;
     }
     header ul{
         display: none;
     }
     header aside {
-        display: block;
+        padding-left: 100px;
+        display: flex;
     }
     .sec1 .box {
         display: block;
