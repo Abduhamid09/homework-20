@@ -12,6 +12,9 @@
     font-family: 'Tenor Sans';
     src: url(./font/TenorSans-Regular.ttf);
 }
+.father{
+    margin: auto 120px;
+}
 header div{
     display: flex;
     justify-content: space-between;
@@ -35,7 +38,7 @@ header aside {
 }
 .sec1 .box{
     display: flex;
-    margin: 60px 120px;
+    margin: 60px auto;
 }
 .sec1 .box .box__item{
     padding-left: 60px;
@@ -79,28 +82,187 @@ letter-spacing: 1px;
 text-transform: uppercase;
 color: #000000;
 }
-@media (max-width: 500px) {
-    header{
-        padding: 20px 80px;
-    }
-    header ul{
-        display: none;
-    }
-    header aside {
-        padding-left: 100px;
-        display: flex;
-    }
-    .sec1 .box {
-        display: block;
-    }
-    .sec1 .box .box__item{
-        width: 100%;
-        height: 42px;
-    }
-    .sec1 .box img{
-        width: 421px;
-        height: 174px;
-
-
+.sec1 .box2{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+.sec1 .box2 aside{
+    margin-top: 75px;
+    width: 386px;
+}
+.sec1 .box2 aside p:nth-child(2){
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    padding-top: 24px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #999999;
+}
+.sec1 .box2 aside h1{
+    padding-right: 39px;
+    font-family: 'Tenor Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    padding-top: 18px;
+    text-transform: uppercase;
+    color: #000000;
+}
+.sec1 .box2 aside p:nth-child(4){
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 12px;
+    padding-top: 15px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #000000;
+}
+.sec1 hr{
+    height: 1px;
+    margin-top: 65px;  
+}
+.sec2{
+    margin-top: 88px;
+}
+.sec2 .box p{
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #999999;
+}
+.sec2 .box .box__item{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: -60px;
+    justify-content: center;
+}
+.sec2 .box .box__item aside{
+    margin-top: 90px;
+    width: 305px;
+}
+.sec2 .box .box__item aside img{
+    width: 285px;
+    height: 187px;
+}
+.sec2 .box .box__item p:nth-child(2){
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    padding-top: 24px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #999999;
+}
+.sec2 .box .box__item h1{
+    padding-right: 39px;
+    font-family: 'Tenor Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    padding-top: 18px;
+    text-transform: uppercase;
+    color: #000000;
+}
+.sec2 .box .box__item p:nth-child(4){
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 12px;
+    padding-top: 15px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #000000;
+}
+.sec2 .box .box__item button{
+    background: #FFFFFF;
+    margin-top: 64px;
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    padding: 21px 26px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.sec2 .box hr{
+    margin-top: 90px;
+    height: 1px;
+}
+.sec3{
+    margin-top: 90px;
+}
+.sec3 .box .box__item{
+    gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.sec3 .box .box__item .box__item2{
+    padding-top: 73px;
+}
+.sec3 .box p{
+    font-family: 'Libre Franklin';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 12px;
+letter-spacing: 1px;
+text-transform: uppercase;
+color: #999999;
+}
+.sec3 .box__item p{
+    padding-top: 25px;
+    font-family: 'Libre Franklin';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 12px;
+letter-spacing: 1px;
+text-transform: uppercase;
+color: #999999;
+}
+.sec3 .box__item h1{
+    padding-top: 18px;
+    font-family: 'Tenor Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 19px;
+line-height: 24px;
+text-transform: uppercase;
+color: #000000;
+}
+.sec3 .box__item h2{
+    font-family: 'Libre Franklin';
+font-style: normal;
+font-weight: 700;
+font-size: 10px;
+line-height: 12px;
+padding-top: 15px;
+letter-spacing: 1px;
+text-transform: uppercase;
+color: #000000;
+}
+@media (max-width:447px) {
+    body{
+        width: 40%;
+        
     }
 }
