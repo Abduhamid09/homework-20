@@ -81,7 +81,9 @@ color: #000000;
 }
 @media (max-width: 500px) {
     header{
-        /* width: 100%; */
+        width: 100%;
+        justify-content: space-between;
+        display: flex;
         padding: 20px 80px;
     }
     header ul{
