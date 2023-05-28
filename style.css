@@ -262,6 +262,54 @@ color: #000000;
 }
 @media (max-width:447px) {
     body{
-        width: 1%;
-   }
-}
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .father{
+        overflow: hidden;
+        max-width: 447px;
+        margin: auto 0px;
+    }
+    header div{
+        width: 440px;
+        padding: 20px 30px;
+    }
+    header div ul{
+        display: none;
+    } 
+    header div aside{
+        display: block;
+    }
+    .sec1{
+        margin: -50px auto;
+    }
+    .sec1 .box{
+        height: 550px;
+        width: 400px;
+        display: block;
+    }
+    .sec1 .box .img1{
+        display: flex;
+    }
+    .sec1 .box img{
+        width: 400px;
+    }
+    .sec1 .box .box__item{
+        width: 400px;
+        overflow: hidden;
+        padding-left: 0;
+        padding-top: 40px;
+    }
+    .sec1 .box2{
+        width: 445px;
+        padding: 0 30px;
+
+    }
+    .sec2{
+        display: none;
+    }
+    .sec3{
+        display: none;
+    }
+ }
+
